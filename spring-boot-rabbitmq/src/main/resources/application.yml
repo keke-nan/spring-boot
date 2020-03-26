@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    username: guest
+    password: guest
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: /dev
+    default-exchange: amq.direct
+    listener:
+      simple:
+        prefetch: 1
+        concurrency: 1
+        max-concurrency: 1

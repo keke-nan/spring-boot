@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-oauth2-server" />
+        <module name="spring-boot" />
+        <module name="spring-boot-interceptor" />
+        <module name="spring-boot-schedule" />
+        <module name="spring-boot-test" />
+        <module name="spring-boot-rabbitmq" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-rocketmq" target="1.8" />
+      <module name="spring-boot-wechat-pay" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot" options="-parameters" />
+      <module name="spring-boot-interceptor" options="-parameters" />
+      <module name="spring-boot-oauth2-server" options="-parameters" />
+      <module name="spring-boot-rabbitmq" options="-parameters" />
+      <module name="spring-boot-rocketmq" options="-parameters" />
+      <module name="spring-boot-schedule" options="-parameters" />
+      <module name="spring-boot-test" options="-parameters" />
+      <module name="spring-boot-wechat-pay" options="-parameters" />
+    </option>
+  </component>
+</project>
